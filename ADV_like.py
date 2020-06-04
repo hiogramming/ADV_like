@@ -128,18 +128,6 @@ def main():
 
         if index == 1:
             if message_box.message_num == message_box.message_index:
-                if key[pygame.K_1] == 1:
-                    message_box.set_message("data/text/kuu_tsuka.csv", screen, 1, 20)
-                    index = 99
-                if key[pygame.K_2] == 1:
-                    message_box.set_message("data/text/doutei_chimpoko_sensei.csv", screen, 1, 19)
-                    index = 99
-                if key[pygame.K_3] == 1:
-                    message_box.set_message("data/text/3300yen_no_3kaibarai.csv", screen, 1, 170)
-                    index = 99
-                if key[pygame.K_4] == 1:
-                    message_box.set_message("data/text/shef_tony.csv", screen, 1, 110)
-                    index = 99
                 if key[pygame.K_5] == 1:
                     message_box.set_message("data/text/test.csv", screen, 1, 6)
                     index = 99
